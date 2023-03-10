@@ -71,7 +71,19 @@ body{
 }
 
 
+#banner h1{
+text-align: center;
+}
 
+
+
+.card{
+margin: 5px 30px;
+}
+
+.card-content{
+margin: 5px 30px;
+}
 
 
 
