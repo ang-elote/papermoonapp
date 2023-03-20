@@ -1,25 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
-
 :root{
 	--f7-theme-color:#f5f5f5;
 	--f7-navbar-bg-color: #F5EBF6; /*navbar*/
-	--f7-navbar-link-color: #5079FE; /*navbar link*/
-	--f7-navbar-text-color:#7C899F;
+	--f7-navbar-link-color: hotpink; /*navbar link*/
+	--f7-navbar-text-color: #010101;
 	--f7-bars-bg-color:#0F0F0F; /*toolbar*/
-	--f7-tabbar-link-inactive-color: #7b7b7b; /*link toolbar*/
+	--f7-tabbar-link-inactive-color: #f5f5f5; /*link toolbar*/
 	--f7-block-margin-vertical:20px;
 	--f7-card-footer-border-color:transparent; 
 }
 
+html{
+		font-family: 'Manrope';
 
-body{
-	font-family: 'Manrope';
 }
+
+/* home */
+
 #home{
 	background-color: #F5EBF6;
 	text-align: center;
+	
 }
 
+#home h2{
+	font-weight: 900;
+}
 .img-fluid{
 	max-width: 100%;
 	display:block;
@@ -28,19 +34,22 @@ body{
 
 .hero{
 	background-image: url("../img/fondo1.jpg");
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center;	
+	padding-bottom: 5%;
+	padding-top: 5%;
+
 }
 
 .hero h2.block-title.block-title-medium{
-	padding-top: 20%;
-	color: #2E2E2E;
+	padding-top: 5%;
+	color: #3D0032;
 }
 
 .hero h2.block-title.block-title-large{
 	padding-bottom: 30%;
-	color: #2E2E2E;
+	color: #3D0032;
 
 }
 
@@ -66,10 +75,13 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-
+	padding-bottom: 10%;
+	padding-top: 10%;
 
 }
 
+
+/* blog */
 
 #banner h1{
 text-align: center;
@@ -86,9 +98,487 @@ margin: 5px 30px;
 }
 
 
+#blog{
+background-color: #F3DDE2;
+padding-bottom: 50px;
+padding-top: 30px;
+text-align: center;
+}
+
+#blog img{
+width: 150px;
+margin-left: 105px;
+}
+
+#blog h1{
+margin-left: 115px;
+margin-top: -60px;
+font-size: 20px;
+}
+
+#cardsblog .card{
+padding: 15px 5px;
+}
+
+#cardsblog{
+padding-top: 30px;
+}
+
+#cardsblog h2{
+font-size: 15px;
+margin-left: 70px;
+margin-bottom: -30px;
+}
+
+#cardsblog img{
+margin-left: -10px;
+}
+
+#cardsblog p{
+font-size: 10px;
+text-align: left;
+margin-left: 5px;
+margin-top: 30px;
+}
+
+#cardsblog img{
+width: 75px;
+}
+
+#cardsblog .button{
+background-color: #EB3C7C;
+margin-left: 70px;
+margin-right: 70px;
+}
+
+#botonmas .button{
+background-color: #F5FF06;
+margin-left: 120px;
+margin-right: 120px;
+color: #000;
+}
+
+
+.card{
+margin: 5px 30px;
+}
+
+.card-content{
+margin: 5px 30px;
+}
+
+.card-white{
+	background-color: #FFFFFF;
+margin: 5px 30px;
+}
+
+.descuento{
+	background-color: hotpink;
+	
+}
+
+.card-white h6{
+	color: red;
+	margin-bottom: 20px;
+	
+}
+
+.card-white img{
+  margin: 50px 30px 50px;
+	
+}
+
+.descuento h1{
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Manrope';
+}
+	
+
+/* cursos */
+
+#banner h1{
+text-align: center;
+}
+
+
+#cardscursos .button{
+background-color: #000;
+color: #fff;
+border-radius: 30px 30px;
+margin: 10px 0px;
+text-align: center;
+}
+
+#banner h1{
+font-family: Manrope;
+font-size: 20px;
+}
+
+#cardscursos{
+background-color: #F5EBF6;
+padding-bottom: 30px;
+}
+
+#curso1{
+margin-bottom: 30px;
+}
+
+#curso1 h2{
+padding: 15px 0px;
+margin-left: 10px;
+font-family: Manrope;
+}
+
+#curso1 img{
+width: 200px;
+height: 160px;
+margin-left: 5px;
+}
+
+#curso1 .card-content{
+margin-left: 8px;
+}
+
+#curso2 img{
+width: 200px;
+height: 160px;
+margin-left: 5px;
+}
+
+#curso2 .card-content{
+margin-left: 8px;
+}
+
+#titulo2{
+padding: 10px 0px;
+margin-left: 10px;
+font-family: Manrope;
+}
+
+#curso3{
+margin-bottom: 30px;
+}
+
+#curso3 img{
+width: 200px;
+height: 160px;
+margin-left: 5px;
+}
+
+#curso3 .card-content{
+margin-left: 8px;
+}
+
+
+#curso4 img{
+width: 200px;
+height: 160px;
+margin-left: 5px;
+}
+
+#curso4 .card-content{
+margin-left: 8px;
+}
+
+#back {
+color: hotpink;
+margin-left: 20px;
+}
+	
+
+/* perfil */
+
+body, html {
+  height: 100%;
+  margin: 20;
+  font-family: Manrope, sans-serif;
+	background-color: #F5EBF6;
+}
+/*header */
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.pixabay.com/photo/2017/08/25/18/48/watercolor-2681039_1280.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 200%;
+}
+
+.details i{
+	color: #404040;
+	margin-left: 30px;
+	margin-right: 15px;
+	margin-bottom: 8px;
+}
+
+
+/*informacion personal */
+.form-inline {  
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.form-inline button {
+  padding: 10px 20px;
+  background-color: pink;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+}
+
+
+@media (max-width: 200px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+  
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+
+.btn {
+  background-color: #ff2d55;
+  border-radius: 20px;
+	border-color:deeppink;
+  color: white;
+  padding: 14px 16px;
+  font-size: 16px;
+  cursor: pointer;
+margin: 10px;
+	
+
+}
+
+
+.contenedor-botones{
+display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
 
 
 
+#boton1{
+  grid-column: 1 / 2;
+  grid-row: 1;
+background-color: whitesmoke;
+  border-radius: 20px;
+	border-color:hotpink;
+  color: deeppink;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+#boton2{
+  background-color: whitesmoke;
+  border-radius: 20px;
+	border-color:hotpink;
+  color: deeppink;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+		
+
+}
+#boton3 {
+    background-color: whitesmoke;
+  border-radius: 20px;
+	border-color:hotpink;
+  color: deeppink;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+	
+}
+#boton4 {
+    background-color: whitesmoke;
+  border-radius: 20px;
+	border-color:hotpink;
+  color: deeppink;
+  padding: 12px 16px;
+  font-size: 16px;
+	cursor: pointer;
+}
+
+
+/* about */
+
+
+.block-title nosotras{
+	font-weight: 90%;
+	text-align: center;
+}
+
+.page-content{
+	text-align: center;
+	font-family: 'manrope';
+}
+
+.square1{
+	background-color: #F5EBF6;
+	width: 100%;
+	height: 100%;
+}
+
+.img-aboutus{
+	display: block;
+	max-width: 100%;
+}
+
+.card-content listas{
+	background-color: #F6C3C9;
+	height: 100%;
+	width:80%;
+}
+
+.block-title contactanos{
+	font-weight: 400px;
+}
+
+.informacion{
+	background-color: #F6C3C9;
+	width: 100%;
+	height: 90%;
+	border-radius: 20px;
+	padding-bottom: 1%;
+}
+
+.button-fill-enviar{
+	background-color: #000;
+	color: #fff;
+}
+
+
+/* catalogo */
+
+.block-title catalogo{
+
+font-weight:90%;
+
+text-align: center;
+
+}
+
+
+.img-bannercat{
+
+display: block;
+
+max-width: 100%;
+
+}
+
+#cata .card{
+
+background-color: #F6BFC6;
+
+height: 60%;
+
+width:100%;
+
+padding-top: 5%;
+
+padding-left: 5%;
+
+padding-right: 5%;
+
+padding-bottom: 5%;
+
+border-radius: 10px;
+
+}
+
+.tombow1{
+
+border-radius: 50px;
+
+width: 80px;
+
+heigt:80px;
+
+}
+
+.button-fill-comp{
+
+background-color: #000;
+
+border-radius: 50px;
+
+}
+
+.washi-tape{
+
+border-radius: 50px;
+
+width: 80px;
+
+heigt:80px;
+
+}
+
+.pastel{
+
+border-radius: 50px;
+
+width: 80px;
+
+heigt:80px;
+
+}
+
+.marcadores{
+
+border-radius: 50px;
+
+width: 80px;
+
+heigt:80px;
+
+}
+
+.note{
+
+border-radius: 50px;
+
+width: 80px;
+
+heigt:80px;
+
+}
 
 
 

@@ -32,6 +32,37 @@ var app = new Framework7({
     	name: 'cursos',
   		},
 		{
+		path: '/blog/',
+    	url: 'blog.html',
+    	name: 'blog',
+  		},
+		{
+		path: '/descuentos/',
+    	url: 'descuentos.html',
+    	name: 'descuentos',
+  		},
+		{
+		path: '/detalles/',
+    	url: 'detalles.html',
+    	name: 'detalles',
+  		},
+		{
+		path: '/perfil/',
+    	url: 'perfil.html',
+    	name: 'perfil',
+  		},
+		{
+		path: '/about/',
+    	url: 'about.html',
+    	name: 'about',
+  		},
+		{
+		path: '/catalogo/',
+    	url: 'catalogo.html',
+    	name: 'catalogo',
+  		},
+
+		{
 		path: '/cards/',
     	url: 'cards.html',
     	name: 'cards',
